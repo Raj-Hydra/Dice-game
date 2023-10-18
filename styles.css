@@ -1,0 +1,80 @@
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+  
+}
+
+.container1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+
+}
+
+body {
+  background-color: #393E46;
+}
+
+h1 {
+  margin: 30px;
+  font-family: 'Lobster', cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 3rem;
+  color: #4ECCA3;
+}
+
+p {
+  font-size: 2rem;
+  color: #4ECCA3;
+  font-family: 'Indie Flower', cursive;
+}
+
+img {
+  width: 80%;
+}
+
+
+.center-container {
+  text-align: center;
+  
+}
+
+#refreshButton {
+  padding: 10px 20px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#refreshButton:hover {
+  background-color: #2980b9;
+}
+
+
+.hero {
+  background-color: #3498db;
+  color: white;
+  text-align: center;
+  padding: 100px 0;
+}
+
+.hero h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
